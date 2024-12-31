@@ -9,7 +9,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin/)
 
 include_directories(include)
 
-add_subdirectory(vendors/SFML/)
+add_subdirectory(vendor/SFML)
 
 file(GLOB SOURCE_FILES "src/*.cpp")
 
