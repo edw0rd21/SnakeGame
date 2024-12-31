@@ -1,3 +1,5 @@
+After cloning the project,
+
 ```bash
 mkdir build
 cd build
