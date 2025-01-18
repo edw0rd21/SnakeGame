@@ -1,17 +1,8 @@
-After cloning the project,
-
+After cloning the project, run
 ```bash
-mkdir build
-cd build
-cmake ..
-cd ..
-
-#copy build.sh to build dir
-cp build.sh build
-cd build
-sh build.sh
+build.bat
 
 #to run exe, you NEED to be inside the .exe dir
 cd bin/Release
-./Snake-Game.exe
+.\Snake-Game.exe
 ```
